@@ -1,7 +1,7 @@
 
 const SpeakerCard = ({imgURL, name, about}) => {
   return (
-    <div className="flex gap-5 mt-5 sm:items-center md:items-start sm:flex-col md:flex-row">
+    <div className="flex gap-5 mt-5 sm:items-center md:items-start flex-col lg:flex-row">
       <img
         src={imgURL}
         className="rounded-full object-cover w-[200px] h-[200px]"
