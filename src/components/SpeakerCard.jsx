@@ -7,7 +7,7 @@ const SpeakerCard = ({imgURL, name, about}) => {
         className="rounded-full object-cover w-[200px] h-[200px]"
       />
       <div className="flex-1">
-        <h3 className="mt-1 font-palanquin text-3xl font-bold sm:text-center md:text-justify">
+        <h3 className="mt-1 font-palanquin text-3xl font-bold text-center lg:text-justify">
           {name}
         </h3>
         <p
