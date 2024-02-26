@@ -3,7 +3,7 @@ import { email, phone } from "../assets/icons"
 
 const Coordinator = () => {
   return (
-    <section className="flex justify-wrap align-top max-xl:flex-col-reverse gap-10 max-container">
+    <section className="flex justify-wrap align-top max-xl:flex-col gap-10 max-container">
       <div className="flex-1">
         <img
           src={bolanle}
