@@ -34,7 +34,6 @@ export const speakers = [
     Her mission is to:<li>Present your authenticity.</li>
     <li>Incorporate your own story into your visual design.</li>
     <li>Present your clear brand message.</li>
-    <li>Tailor your visual branding to resonate with both your identity and your audience's needs.</li>
     Because first impressions matter a lot!`,
   },
   {
@@ -66,7 +65,6 @@ She is a product of many graces and has a mantra that says; “anywhere you see 
 Her plan is not just about you being safe financially; it's about using smart tools to make life better, like:
 <li>Saving money for your kids' education</li>
 <li>Making more money over time</li>
-<li>Protecting your income if something goes wrong</li>
 <li>Making things easier for your family legally and paying fewer taxes</li>
 
 She has been helping people with money for more than 3 years, and she has done a great job, earning the title Cash Value Queen. `,
@@ -82,7 +80,7 @@ She has empowered countless individuals to enhance their online presence, and ha
   {
     imgURL: doyinmola,
     name: 'Doyinmola Paul Oyewusi',
-    about: `Born in the vibrant Nigerian community of Ondo, Doyinmola felt a deep calling to contribute positively to the world. Seeing the importance of sustainable African culture and crafts ignited a passion within her. At 19, she embarked on a mission to inspire and empower young people after discovering the centuries-old tradition of Adire, an African indigenous textile making technique, and, with the alarming environmental impact of disposed clothing, she saw a unique opportunity to create a cleaner, greener and healthier environment.
+    about: `Born in the vibrant Nigerian community of Ondo, Doyinmola felt a deep calling to contribute positively to the world. At 19, she embarked on a mission to inspire and empower young people after discovering the centuries-old tradition of Adire, an African indigenous textile making technique, and, with the alarming environmental impact of disposed clothing, she saw a unique opportunity to create a cleaner, greener and healthier environment.
   <br>
  `,
   },
@@ -92,7 +90,7 @@ She has empowered countless individuals to enhance their online presence, and ha
     name: 'Elijah Mucungunzi',
     about: `Elijah Mucunguzi is a seasoned Investment Consultant based in Uganda, boasting an impressive track record in investment advisory, Financial Literacy, sales, and marketing. Elijah has been instrumental in delivering top-notch investment advisory services and executing high-investment programs for various industries in Uganda.
 <br>
-Collaborating with numerous prominent NGOs, SMEs and Companies, Elijah's strategic initiatives consistently drive financial awareness and open doors to lucrative investment opportunities. His expertise lies in investment advisory for financial assets, account management, customer service, and financial literacy. `,
+Collaborating with numerous prominent NGOs, SMEs and Companies, Elijah's strategic initiatives consistently drive financial awareness and open doors to lucrative investment opportunities.`,
   },
 ]
 
