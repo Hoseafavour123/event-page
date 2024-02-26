@@ -2,25 +2,34 @@ import heroImage from './heroImage.jpg'
 import leadership from './leadership.jpeg'
 import missionVision from './missionVision.jpeg'
 import hostImage from './hostImage.jpg'
-
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
-
-import footerLogo from './footer-logo.svg'
-import headerLogo from './header-logo.svg'
-
-import offer from './offer.svg'
+import pstSegun from './pstSegun.jpg'
+import ademiku from './ademiku.jpg'
+import adeogo from './adeogo.jpg'
+import amarachi from './amarachi.jpg'
+import bolanle from './bolanle.jpg'
+import desi from './desi.jpg'
+import dorcas from './dorcas.jpg'
+import doyinmola from './doyinmola.jpg'
+import elijah from './elijah.jpg'
+import mona from './mona.jpg'
+import rotimi from './rotimi.jpg'
+import rubie from './rubie.jpg'
 
 export {
-
-    heroImage,
-    leadership,
-    missionVision,
-    hostImage,
-    customer1,
-    customer2,
-
-    footerLogo,
-    headerLogo,
+  heroImage,
+  leadership,
+  missionVision,
+  hostImage,
+  pstSegun,
+  ademiku,
+  adeogo,
+  amarachi,
+  bolanle,
+  desi,
+  dorcas,
+  doyinmola,
+  elijah,
+  mona,
+  rotimi,
+  rubie,
 }
-

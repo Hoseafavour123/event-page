@@ -3,7 +3,7 @@ import { leadership } from '../assets/images/index'
 const About = () => {
   return (
     <section
-      id="about-us"
+      id="about"
       className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
       <div className="flex flex-1 flex-col">
@@ -11,13 +11,17 @@ const About = () => {
           About the <span className="text-coral-red">Leadership</span> Academy
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Discover stylish nikey arrival, feel free to bounce in those! Lorem
-          ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam delectus
-          maxime quidem. Quidem animi et doloremque at asperiores veniam
-          voluptates voluptas,
-        </p>
-        <p className="mt-6 mb-6 lg:max-w-lg info-text">
-          corporis hic. Minus sapiente temporibus ex molestiae, distinctio ab?
+          The LinkedIn Leadership Academy is an academy where young people are
+          trained, equipped and nurtured to be agents of change in their world.
+          <br />
+          The academy is on a mission to raise young leaders who will
+          positively impact the society and become problem solver's and solution
+          providers.
+          <br />
+          Simultaneously, participants of the academy will engage in a 30 days
+          LinkedIn consistency challenge and they will be trained on how to make
+          use of LinkedIn to network with other professionals, connect with like
+          minds and leverage LinkedIn to pursue their goals.
         </p>
       </div>
       <div className="flex-1 flex justify-center items-center">

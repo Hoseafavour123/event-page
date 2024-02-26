@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 
 
 const Hero = () => {
-  const futureDate = new Date('2024-04-03T00:00:00') // April 3rd, 2024
+  const futureDate = new Date('2024-04-01T00:00:00') // April 3rd, 2024
 
   const calculateTimeLeft = () => {
     const difference = +futureDate - +new Date()
@@ -60,11 +60,19 @@ const Hero = () => {
       </button>
       <div className="absolute bottom-[30px] bg-white h-auto flex flex-col items-center justify-center lg:w-[25%] sm:w-auto">
         <div className="text-3xl mb-2">
-          {futureDate.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
+          <small className="text-sm">starts: </small>
+          <small className="">
+            {futureDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </small>
+          <br />
+          <small className="text-sm">ends: </small>{' '}
+          <small>
+            April 31, 2024
+          </small>
         </div>
         <div className="flex gap-4 mb-2">
           <div className="bg-gradient-to-br from-black via-black-500 to-red-500 rounded px-3">

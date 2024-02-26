@@ -1,19 +1,20 @@
 import Hero from './Hero'
-import CustomerReviews from './CustomerReviews'
+import Speakers from './Speakers'
 import Footer from './Footer'
 import About from './About'
 import WhoFor from './WhoFor'
 import Host from './Host'
-import Subscribe from './Subscribe'
+import Register from './Register'
 import MissionAndVision from './MissionAndVision'
-
+import Coordinator from './Coordinator'
 export {
-    Hero,
-    CustomerReviews,
-    Footer,
-    About,
-    WhoFor,
-    MissionAndVision,
-    Host,
-    Subscribe
+  Hero,
+  Speakers,
+  Footer,
+  About,
+  WhoFor,
+  MissionAndVision,
+  Host,
+  Register,
+  Coordinator
 }

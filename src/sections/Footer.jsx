@@ -1,5 +1,4 @@
 import { copyrightSign } from '../assets/icons'
-import { footerLogo } from '../assets/images'
 import { footerLinks, socialMedia } from '../constants'
 
 const Footer = () => {
@@ -12,15 +11,18 @@ const Footer = () => {
             className=" whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
           >
             <span className="px-4 py-1 rounded bg-gradient-to-r from-red-500 via-purple-400 to-pink-500 text-bold text-2xl text-white">
-              Stellar
+              LinkedIn Leadership
             </span>
-            Shoes
+            Academy
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white sm:max-w-sm ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-            rem iusto ipsa dolor, laudantium tempora, voluptatem error eum sed
-            harum odio itaque. Sunt, quibusdam dolorum voluptatum unde iure
-            quaerat. Suscipit.
+            An academy where young people are
+            trained, equipped and nurtured to be agents of change in their
+            world.
+            <br />
+            On a mission to raise young leaders who will
+            positively impact the society and become problem solver's and
+            solution providers.
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
@@ -30,7 +32,8 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-1 justify-between mt-6 lg:gap-10 gap-20 flex-wrap">
+
+        <div className="flex justify-between mt-6 lg:gap-10 gap-20 flex-wrap">
           {footerLinks.map((section) => (
             <div key={section}>
               <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">
@@ -42,7 +45,7 @@ const Footer = () => {
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                     key={link.name}
                   >
-                    <a>{link.name}</a>
+                    <a href={link.link}>{link.name}</a>
                   </li>
                 ))}
               </ul>
@@ -50,8 +53,9 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
-        <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
+
+      <div className="flex justify-center text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
+        <div className="flex  items-center gap-2 font-montserrat cursor-pointer">
           <img
             src={copyrightSign}
             width={20}
@@ -61,7 +65,6 @@ const Footer = () => {
           />
           <p>Copyright. All rights reserved</p>
         </div>
-        <p className="font-monserrat cursor-pointer ">Terms & Conditions</p>
       </div>
     </footer>
   )
