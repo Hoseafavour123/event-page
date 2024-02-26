@@ -49,12 +49,12 @@ const Hero = () => {
   return (
     <div
       className="relative h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${heroImage})` }}
+      style={{ backgroundImage: `url(${heroImage})`}}
     >
-      <div className="flex flex-col items-center text-center text-white">
+      <div className="flex flex-col gap-5 items-center text-center text-white">
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
         <span className="text-xl font-bold">COHORT 1</span>
-         <button className="absolute bottom-[23%] w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
+         <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
         <a href="">Register Now</a>
       </button>
       </div>
