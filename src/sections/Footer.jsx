@@ -7,12 +7,13 @@ const Footer = () => {
     <footer className="max-container">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/">
+          <a href="/" className='flex gap-2'>
             <img
               src={logo}
               alt="Logo"
-              className="w-[80px] rounded-xl bg-slate-gray"
+              className="w-[60px] max-lg:w-[40px] bg-slate-gray"
             />
+            <span className='font-bold'>LinkedIn<br/> Leadership Academy</span>
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white sm:max-w-sm ">
             An academy where young people are trained, equipped and nurtured to
