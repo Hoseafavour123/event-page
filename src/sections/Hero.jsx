@@ -74,7 +74,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-[30px] bg-white h-auto flex flex-col items-center justify-center lg:w-[25%] sm:w-auto">
+      <div className="absolute bottom-[30px] bg-white h-auto flex flex-col items-center justify-center lg:w-[25%] sm:w-auto mt-2">
         <div className="text-3xl mb-2">
           <small className="text-sm">starts: </small>
           <small className="">
