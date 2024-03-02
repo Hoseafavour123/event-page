@@ -1,6 +1,16 @@
-
+import { useState, useEffect } from "react"
 
 const Register = () => {
+  const futureEndRegistration = new Date('2024-03-20T00:00:00')
+  const [registrationStatus, setRegistrationStatus] = useState(true)
+
+  useEffect(() => {
+    const currentDate = new Date()
+    if (currentDate.getTime() > futureEndRegistration.getTime()) {
+      setRegistrationStatus(false)
+    }
+  }, [])
+
   return (
     <section
       className="max-container flex justify-between items-center max-lg:flex-col gap-10"
@@ -11,8 +21,12 @@ const Register = () => {
         <span className="text-coral-red">LinkedIn Leadership </span> Academy
       </h3>
       <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
-        <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
-      </button>
+          {registrationStatus ? (
+            <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
+          ) : (
+            <a href="">Registeration has ended!</a>
+          )}
+        </button>
     </section>
   )
 }

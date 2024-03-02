@@ -8,12 +8,13 @@ const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="max-container flex justify-between items-center align-middle">
-        <a href="/">
+        <a href="/" className='flex '>
           <img
             src={logo}
             alt="Logo"
-            className="w-[80px] rounded-xl bg-slate-gray"
+            className="max-lg:w-[40px] w-[60px]"
           />
+          <span className='text-white mx-1 font-bold text-sm lg:text-xl lg:mx-2'>LinkedIn <br/> Leadership Academy</span>
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (
