@@ -64,8 +64,8 @@ const Hero = () => {
       <div className="flex flex-col gap-5 items-center text-center text-white">
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
         <span className="text-xl font-bold">COHORT 1</span>
-        <p>Registration ends 20th March, 2024 </p>
-        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mb-2">
+        <p className='mb-0'>Registration ends 20th March, 2024 </p>
+        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
           {registrationStatus ? (
             <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
           ) : (
