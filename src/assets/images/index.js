@@ -14,8 +14,11 @@ import elijah from './elijah.jpg'
 import mona from './mona.jpg'
 import rotimi from './rotimi.jpg'
 import rubie from './rubie.jpg'
+import pstFaith from './pstFaith.jpg'
+import logo from './logo.png'
 
 export {
+  logo,
   heroImage,
   leadership,
   missionVision,
@@ -32,4 +35,5 @@ export {
   mona,
   rotimi,
   rubie,
+  pstFaith
 }

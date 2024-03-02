@@ -13,7 +13,7 @@ const MissionAndVision = () => {
         <p className="mt-4 lg:max-w-lg info-text">
           To raise leader's for global dominance
           <br/>
-          To cultivate vissionaries for global prominence
+          The goal of the LinkedIn Leadership Academy is to prepare young people for ethical leadership as they carry out projects that improve their communities and organizations, supporting their livelihoods and advancing national development.
         </p>
        
       </div>

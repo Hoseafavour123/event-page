@@ -8,12 +8,16 @@ import {
   Register,
   MissionAndVision,
   Speakers,
-  Coordinator
+  Coordinator,
 } from './sections/index'
+
+import Nav from './components/Nav'
+
 
 const App = () => {
   return (
     <main className="relative">
+      <section><Nav/></section>
       <section className="">
         <Hero />
       </section>

@@ -32,30 +32,6 @@ const Coordinator = () => {
           targeting women. Bolanle is renowned for her diligence and continuous
           pursuit of personal and professional growth opportunities.
         </p>
-        <div className="flex mt-11 flex-wrap gap-4">
-          <span className="text-bold align-top text-sm">Get in Touch: </span>
-          <div className="flex flex-col">
-            <div className="flex mb-2">
-              <img src={phone} height={30} width={30} className="inline" />
-              <p>
-                <a href="tel:+2347087098382">
-                +2347087098382
-                </a>
-              </p>
-            </div>
-
-            <a href="mailto:LinkedinLeadershipAcademy@gmail.com">
-              <img
-                src={email}
-                height={30}
-                width={30}
-                alt=""
-                className="inline"
-              />{' '}
-              <span>LinkedinLeadershipAcademy@gmail.com </span>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   )

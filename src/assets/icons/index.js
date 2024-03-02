@@ -4,6 +4,7 @@ import facebook from './facebook.png'
 import instagram from './instagram.svg'
 import twitterX from './twitterX.png'
 import linkedIn from './linkedIn.png'
+import hamburger from './hamburger.svg'
 import changeMakers from './changeMakers.png'
 import kingdom from './kingdom.png'
 import sun from './sun.jpeg'
@@ -12,6 +13,7 @@ import phone from './phone.png'
 
 export {
     copyrightSign,
+    hamburger,
     facebook,
     instagram,
     twitterX,

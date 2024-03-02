@@ -1,4 +1,4 @@
-import { facebook, instagram, twitterX } from '../assets/icons'
+import { linkedIn, instagram } from '../assets/icons'
 
 import {
   pstSegun,
@@ -12,13 +12,14 @@ import {
   mona,
   rotimi,
   rubie,
+  pstFaith
 } from '../assets/images'
 
 export const navLinks = [
-  { href: '#home', label: 'Home' },
-  { href: '#about-us', label: 'About Us' },
-  { href: '#products', label: 'Products' },
-  { href: '#contact-us', label: 'Contact Us' },
+  { href: '#about', label: 'About' },
+  { href: '#speakers', label: 'Speakers' },
+  { href: '#register', label: 'Register' },
+  {href: '#mission', label: 'Mission & Vision'}
 ]
 
 export const speakers = [
@@ -26,6 +27,11 @@ export const speakers = [
     imgURL: dorcas,
     name: 'Dorcas Famoriyo',
     about: ` LinkedIn Growth Expert and Writer for Personal Brands and Businesses.`,
+  },
+  {
+    imgURL: ademiku,
+    name: 'Ademiku Adeleye',
+    about: `Ademiku Adeleye is a mentor at UK’s Diana Award and IntoUniversity, where he mentors teenagers in United Kingdom to attain growth in their academic, social, and future career. He has over 6-year experience in volunteering and leadership; Recognized by United Nation Association-NG as Top 3 Youth Leader (Nigeria); organized project with impact reaching over 15,000 youths in 13 states in a project in Nigeria. <br> He is a member of several impactful global organizations - United Nation Academic Impact and Millenium Campus Network; Helping Hand International, ForbesBLK, International Food and Agribusiness Management Association, Aspire Institute, Leap Africa etc. He leverages his commuication, administrative and collaborative skills for community development, sharing global opportunities, inspiring youths - most importantly for women and the marginalised community, and promote the United Nations SDGs.`,
   },
   {
     imgURL: desi,
@@ -36,11 +42,7 @@ export const speakers = [
     <li>Present your clear brand message.</li>
     Because first impressions matter a lot!`,
   },
-  {
-    imgURL: ademiku,
-    name: 'Ademiku Adeleye',
-    about: `Ademiku Adeleye is a mentor at UK’s Diana Award and IntoUniversity, where he mentors teenagers in United Kingdom to attain growth in their academic, social, and future career. He has over 6-year experience in volunteering and leadership; Recognized by United Nation Association-NG as Top 3 Youth Leader (Nigeria); organized project with impact reaching over 15,000 youths in 13 states in a project in Nigeria. <br>`,
-  },
+
   {
     imgURL: pstSegun,
     name: 'Pst Segun Oke',
@@ -56,7 +58,7 @@ export const speakers = [
     imgURL: rubie,
     name: 'Rubie Ibuola',
     about: `Rubie is fortunate to belong to a supportive Christian community that has contributed immeasurably to bolstering her experience of walking with the Holy Spirit.<br>
-She is a product of many graces and has a mantra that says; “anywhere you see me, I am there for the gospel”, whether on a panel with other researchers, an invited speaker at an invent, or at a social gathering. She believes she is there because the gospel will prevail through her.. `,
+She is a product of many graces and has a mantra that says; “anywhere you see me, I am there for the gospel”, whether on a panel with other researchers, an invited speaker at an invent, or at a social gathering. She believes she is there because the gospel will prevail through her.<br> She is a bible teacher, published author, counsellor, convener of Foch woman & Techrubies, podcaster and writer. She works as a software engineering lecturer and researcher in educational technology.<br> At the end of her life, like Oral Roberts, Rubie wants herself and everyone she encounters to say "I lived for the Gospel and died empty" and like Apostle Paul, boldly declare that "I have fought the good fight, I have finished the race, I have kept the faith"`,
   },
   {
     imgURL: mona,
@@ -92,6 +94,11 @@ She has empowered countless individuals to enhance their online presence, and ha
 <br>
 Collaborating with numerous prominent NGOs, SMEs and Companies, Elijah's strategic initiatives consistently drive financial awareness and open doors to lucrative investment opportunities.`,
   },
+  {
+    imgURL: pstFaith,
+    name: 'Pst Faith Oyita Oroegbu',
+    about: `Pastor Faith Oyita Oroegbu is the founder and CEO of Oyita Faith shoes and bag collection. She went from hawking to establishing a global footwear brand. She has been featured on BBC and other platforms. <br> She's the pastor of New Nation Missionary Church, Nasarawa Branch. <br> She recently launched her book HIDDEN SECRET TO ACCOMPLISHMENTS making her a published author. She's passionate about people living out their God ordained purpose and being on fire for God.`,
+  },
 ]
 
 export const footerLinks = [
@@ -115,10 +122,23 @@ export const footerLinks = [
       { name: '+2347087098382', link: 'tel:+2347087098382' },
     ],
   },
+
+  {
+    title: 'Follow Us',
+    links: [
+      {
+        name: 'LinkedIn',
+        link: 'https://www.linkedin.com/company/linkedin-leadership-academy/',
+      },
+      {
+        name: 'Instagram',
+        link: 'https://www.instagram.com/linkedinleadershipacademy?igsh=MXUwdWdmbjhrbXBxaw==',
+      },
+    ],
+  },
 ]
 
 export const socialMedia = [
-  { src: facebook, alt: 'facebook logo' },
-  { src: twitterX, alt: 'twitter logo' },
-  { src: instagram, alt: 'instagram logo' },
+  { src: linkedIn, alt: 'linkedIn logo', link: 'https://www.linkedin.com/company/linkedin-leadership-academy/' },
+  { src: instagram, alt: 'instagram logo', link: 'https://www.instagram.com/linkedinleadershipacademy?igsh=MXUwdWdmbjhrbXBxaw==' },
 ]
