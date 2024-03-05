@@ -64,8 +64,8 @@ const Hero = () => {
       <div className="flex flex-col gap-5 items-center text-center text-white">
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
         <span className="text-xl font-bold">COHORT 1</span>
-        <p className='mb-0'>Registration ends 20th March, 2024 </p>
-        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
+        <span className='m-0 inline-block'>Registration ends 20th March, 2024 </span>
+        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
           {registrationStatus ? (
             <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
           ) : (
@@ -74,7 +74,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute bottom-[30px] bg-white h-auto flex flex-col items-center justify-center lg:w-[25%] sm:w-auto mt-2">
+      <div className="absolute bottom-[27px] bg-white h-auto flex flex-col items-center justify-center lg:w-[25%] sm:w-auto mt-2">
         <div className="text-3xl mb-2">
           <small className="text-sm">starts: </small>
           <small className="">

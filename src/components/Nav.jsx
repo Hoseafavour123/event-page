@@ -14,7 +14,6 @@ const Nav = () => {
             alt="Logo"
             className="max-lg:w-[40px] w-[60px]"
           />
-          <span className='text-white mx-1 font-bold text-sm lg:text-xl lg:mx-2'>LinkedIn <br/> Leadership Academy</span>
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (
