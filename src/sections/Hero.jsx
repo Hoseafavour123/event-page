@@ -67,7 +67,7 @@ const Hero = () => {
         <span className="">
           Registration ends 20th March, 2024{' '}
         </span>
-        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
+        <button className="hidden w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
           {registrationStatus ? (
             <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
           ) : (
