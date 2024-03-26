@@ -21,7 +21,7 @@ const Register = () => {
         <span className="text-coral-red">LinkedIn Leadership </span> Academy
       </h3>
       <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline">
-          {!registrationStatus ? (
+          {!true ? (
             <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
           ) : (
             <a href="">Registeration has ended!</a>
