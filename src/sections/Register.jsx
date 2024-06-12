@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 const Register = () => {
-  const futureEndRegistration = new Date('2024-03-20T00:00:00')
+  const futureEndRegistration = new Date('2024-07-30T00:00:00')
   const [registrationStatus, setRegistrationStatus] = useState(true)
 
   useEffect(() => {

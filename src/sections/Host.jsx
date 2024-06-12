@@ -6,11 +6,11 @@ import { hostImage } from "../assets/images"
 const Host = () => {
   return (
     <section className="flex justify-wrap align-top max-xl:flex-col gap-10 max-container">
-      <div className="flex-1">
+      <div className="flex-1 w-10">
         <img
           src={hostImage}
           width={773}
-          height={500}
+          height={400}
           className="object-contain w-full"
           alt=""
         />
@@ -24,17 +24,19 @@ const Host = () => {
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Aanuoluwapo Emmanuel is a youth who is passionate about young people
-          gaining clarity early in life and living out their God ordained life
-          with the understanding that their purpose is the purpose of Christ.
+          gaining clarity early in life and living out their God ordained life.
           <br/>
-          Her mantra is that "Her generation will love Jesus" She is of the
-          belief that what we are always to seek FIRST is the kingdom of God and
-          his righteousness and that wherever we find ourselves as believer's we
-          should be God's passage way for him to move and for his will to be
-          done. 
+          Her passion revolves around youth empowerment and Leadership
+          development and she's also a personal branding Coach. She's a Law
+          graduate from the federal university of Abuja Nigeria forging her
+          career path in Environmental Law. She's a podcaster, a blogger and an
+          author.
+          <br/>She recently launched her second book titled YOU AND LINKEDIN
+          which is centered on helping people grow on LinkedIn.
           <br/>
-          She's a law graduate forging her career path in environmental
-          law. She's an author, a blogger and a podcaster.
+          She's also the
+          founder of LinkedIn Leadership Academy, an academy where young people
+          are equipped on leadership and trained on how to make use of LinkedIn.
         </p>
         {/*<div className="flex mt-11 flex-wrap gap-4">
           <span className="text-bold align-top text-sm">Connect: </span>

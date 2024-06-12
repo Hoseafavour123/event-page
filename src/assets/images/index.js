@@ -1,21 +1,21 @@
 import heroImage from './heroImage.jpg'
-import leadership from './leadership.jpeg'
+import leadership from './leadership.jpg'
 import missionVision from './missionVision.jpeg'
 import hostImage from './hostImage.jpg'
-import pstSegun from './pstSegun.jpg'
-import ademiku from './ademiku.jpg'
-import adeogo from './adeogo.jpg'
-import amarachi from './amarachi.jpg'
+import valentini from './valentini.jpg'
 import bolanle from './bolanle.jpg'
-import desi from './desi.jpg'
-import dorcas from './dorcas.jpg'
-import doyinmola from './doyinmola.jpg'
-import elijah from './elijah.jpg'
-import mona from './mona.jpg'
-import rotimi from './rotimi.jpg'
-import rubie from './rubie.jpg'
-import pstFaith from './pstFaith.jpg'
+import maketo from './maketo.jpg'
 import logo from './logo.png'
+import praise from './praise.jpg'
+import goshen from './goshen.jpg'
+import esther from './esther.jpg'
+import itofa from './itofa.jpg'
+import florence from './florence.jpg'
+import chidera from './chidera.jpg'
+import benjamin from './benjamin.jpg'
+import kehinde from './kehinde.jpg'
+import rabay from './rabay.jpg'
+import rubie from './rubie.jpg'
 
 export {
   logo,
@@ -23,17 +23,17 @@ export {
   leadership,
   missionVision,
   hostImage,
-  pstSegun,
-  ademiku,
-  adeogo,
-  amarachi,
   bolanle,
-  desi,
-  dorcas,
-  doyinmola,
-  elijah,
-  mona,
-  rotimi,
-  rubie,
-  pstFaith
+  valentini,
+  maketo,
+  praise,
+  goshen,
+  esther,
+  itofa,
+  florence,
+  chidera,
+  benjamin,
+  kehinde,
+  rabay,
+  rubie
 }

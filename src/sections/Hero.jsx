@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 
 
 const Hero = () => {
-  const futureDate = new Date('2024-04-01T00:00:00')
+  const futureDate = new Date('2024-07-01T00:00:00')
   
   const calculateTimeLeft = () => {
     const difference = +futureDate - +new Date()
@@ -21,7 +21,7 @@ const Hero = () => {
     return timeLeft
   }
 
-  const futureEndRegistration = new Date('2024-03-20T00:00:00')
+  const futureEndRegistration = new Date('2024-07-30T00:00:00')
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
   const [registrationStatus, setRegistrationStatus] = useState(true)
 
@@ -63,11 +63,11 @@ const Hero = () => {
     >
       <div className="flex flex-col gap-4 items-center text-center text-white">
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
-        <span className="text-xl font-bold">COHORT 1</span>
+        <span className="text-xl font-bold">COHORT 2</span>
         <span className="">
-          Registration ends 20th March, 2024{' '}
+          Registration ends 30th July, 2024{' '}
         </span>
-        <button className="w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
+        <button className="hidden w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
           {registrationStatus ? (
             <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
           ) : (
@@ -87,8 +87,14 @@ const Hero = () => {
             })}
           </small>
           <br />
-          <small className="text-sm">ends: </small>{' '}
-          <small>April 30, 2024</small>
+          <small className="text-sm">ends: </small>
+          <small className="">
+            {futureEndRegistration.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </small>
         </div>
         <div className="flex gap-4 mb-2">
           <div className="bg-gradient-to-br from-black via-black-500 to-red-500 rounded px-3">

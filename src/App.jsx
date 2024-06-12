@@ -12,6 +12,7 @@ import {
 } from './sections/index'
 
 import Nav from './components/Nav'
+import Testimonials from './sections/Testimonials'
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
       <section className="padding bg-pale-blue">
         <Speakers />
       </section>
+      <section className='padding'><Testimonials/></section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Register />
       </section>
