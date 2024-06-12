@@ -65,7 +65,7 @@ const Hero = () => {
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
         <span className="text-xl font-bold">COHORT 2</span>
         <span className="">
-          Registration ends 30th July, 2024{' '}
+          Registration ends 25th June, 2024{' '}
         </span>
         <button className="hidden w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
           {registrationStatus ? (

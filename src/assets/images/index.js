@@ -1,5 +1,5 @@
 import heroImage from './heroImage.jpg'
-import leadership from './leadership.jpg'
+import leadership from './leadership.jpeg'
 import missionVision from './missionVision.jpeg'
 import hostImage from './hostImage.jpg'
 import valentini from './valentini.jpg'
@@ -16,6 +16,12 @@ import benjamin from './benjamin.jpg'
 import kehinde from './kehinde.jpg'
 import rabay from './rabay.jpg'
 import rubie from './rubie.jpg'
+
+
+import ore from './ore.jpg'
+import obem from './obem.jpg'
+import favour from './favour.jpg'
+import amogu from './amogu.jpg'
 
 export {
   logo,
@@ -35,5 +41,10 @@ export {
   benjamin,
   kehinde,
   rabay,
-  rubie
+  rubie,
+
+  ore,
+  obem,
+  favour,
+  amogu
 }

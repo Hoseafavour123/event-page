@@ -16,6 +16,7 @@ const Testimonials = () => {
              key={index}
              review={testimonial.review}
              name={testimonial.name}
+             imgURL={testimonial.imgURL}
            />
          ))}
        </div>

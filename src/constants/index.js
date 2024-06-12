@@ -1,6 +1,6 @@
 import { linkedIn, instagram } from '../assets/icons'
 
-import { rubie, benjamin, chidera, esther, florence, goshen, itofa, kehinde, maketo, praise, rabay, valentini } from '../assets/images'
+import { rubie, benjamin, chidera, esther, florence, goshen, itofa, kehinde, maketo, praise, rabay, valentini, ore, amogu, favour, obem } from '../assets/images'
 
 export const navLinks = [
   { href: '#about', label: 'About' },
@@ -134,7 +134,7 @@ He is the visionary and lead facilitator of The Crucible - a youth mentorship ne
   },
   {
     imgURL: kehinde,
-    name: ' Kehinde ',
+    name: 'Kehinde Temitope Odutayo ',
     about: ` Kehinde Temitope Odutayo is a dynamic Creative Documentary Filmmaker from Lagos, Nigeria, with over six years of mastery in storytelling, documentary, film, and video production. Currently, he is captivating audiences as a documentary filmmaker at Eko Atlantic and Creative Director at KKG FILMS, Kehinde brings stories to life with unparalleled passion and precision.
 <br/>
 His contributions to Shutterstock, Getty Images, iStock, and Blackbox showcase his keen eye for detail, excellence and innovative spirit. Kehinde's tenacity for knowledge and growth propels him forward to participating in numerous leadership and mentorship programs by YALI, the British Council and WYF. He has contributed to numerous documentaries and articles on different topics from real estate, creative economy, climate change, tourism and environmental protection.
@@ -149,6 +149,7 @@ Personal website - https://linktr.ee/ktodutayo  `,
  export const testimonials = [
   {
     name: 'Esther Amogu',
+    imgURL: amogu,
     review: `I feel incredibly lucky to have been part of the LinkedIn Leadership Academy Cohort 1. It was truly eye-opening for me. The sessions were jam-packed with valuable insights, and the speakers were absolutely amazing, pouring their hearts out and sharing their wisdom with us. The academy went above and beyond my expectations in every way.
 Not only did the program give me invaluable leadership skills, but it also helped me grow personally and spiritually. Plus, I got to meet and learn from some incredible people.
 I'm forever grateful to Miss Aanuoluwapo Emmanuel for spearheading the LinkedIn Leadership Academy and for being such an inspiring leader. Now, I feel empowered and ready to take charge in my world.
@@ -156,6 +157,7 @@ I'm forever grateful to Miss Aanuoluwapo Emmanuel for spearheading the LinkedIn 
   },
   {
     name: 'Favour Olayemi',
+    imgURL: favour,
     review: ` This LinkedIn Leadership Academy has been a game-changer for me, transforming me both personally and professionally. 
 The comprehensive training helped me to discover my strengths and weaknesses, developed my leadership skills, and found purpose and meaning.
 The program which covered self-discovery, writing, volunteering, leadership, spiritual growth among many others, helped me overcome my limitations and articulate my thoughts with clarity.
@@ -165,6 +167,7 @@ It had a profound impact in my life, and I'm confident it will do the same for y
   },
   {
     name: 'Obembe Oluwatosin Grace',
+    imgURL: obem,
     review: `  LinkedIn Leadership Academy has been transformative for me, with a special thanks to the invaluable contributions of the speakers.
 Through their insights on Living a Godly life,professional development, leadership strategies, and communication tactics, I've witnessed significant growth and cohesion in my Life and even on my LinkedIn page.<br/>
 LinkedIn Leadership Academy guidance has empowered me to navigate complex leadership landscapes with clarity and effectiveness, fostering a culture of continuous improvement and success.
@@ -172,6 +175,7 @@ LinkedIn Leadership Academy guidance has empowered me to navigate complex leader
   },
   {
     name: 'Oluwadara Ore',
+    imgURL: ore,
     review: ` I’m glad I joined the first cohort of the LinkedIn Leadership Academy. The journey from day 1 to day 30 of the LinkedIn Leadership Academy was an incredible one. It was indeed impactful because the academy opened my eyes to a lot of things. One thing I love is the fact that it also talked about building a relationship with the Holy Spirit.
 
 My goals when applying to the academy were to learn how to sharpen my leadership skills and grow my brand on LinkedIn, but what I learned surpassed my expectations. 
