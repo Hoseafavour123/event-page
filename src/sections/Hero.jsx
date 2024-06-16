@@ -59,17 +59,15 @@ const Hero = () => {
   return (
     <div
       className="relative h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${heroImage})`}}
+      style={{ backgroundImage: `url(${heroImage})` }}
     >
       <div className="flex flex-col gap-4 items-center text-center text-white">
         <h1 className="text-4xl font-bold ">LINKEDIN LEADERSHIP ACADEMY</h1>
         <span className="text-xl font-bold">COHORT 2</span>
-        <span className="">
-          Registration ends 25th June, 2024{' '}
-        </span>
+        <span className="">Registration ends 25th June, 2024 </span>
         <button className="hidden w-auto bg-red-500 hover:bg-red-300 text-white font-bold py-5 px-9 rounded focus:outline-none focus:shadow-outline mt-3">
           {registrationStatus ? (
-            <a href="https://forms.gle/FHctTmVtQVZuUKxd8">Register Now</a>
+            <a href="https://forms.gle/oPvkrrW1WwaFoi4u9">Register Now</a>
           ) : (
             <a href="">Registeration has ended!</a>
           )}

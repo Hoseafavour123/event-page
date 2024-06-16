@@ -34,9 +34,7 @@ const Host = () => {
           <br/>She recently launched her second book titled YOU AND LINKEDIN
           which is centered on helping people grow on LinkedIn.
           <br/>
-          She's also the
-          founder of LinkedIn Leadership Academy, an academy where young people
-          are equipped on leadership and trained on how to make use of LinkedIn.
+        
         </p>
         {/*<div className="flex mt-11 flex-wrap gap-4">
           <span className="text-bold align-top text-sm">Connect: </span>
